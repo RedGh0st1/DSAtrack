@@ -17,19 +17,23 @@ var findIntersectionValues = function (nums1, nums2) {
   let count1 = 0;
   let count2 = 0;
 
-  // iterate through the first array
+  // iterate through the nums1 array and
   for (let i = 0; i < nums1.length; i++) {
+    //compare nums1 values it to nums2 array values
     if (nums2.includes(nums1[i])) {
+      //accumulate/add the count of common numbers found in nums1 arrays
       count1++;
     }
   }
-
+  //iterate through nums2 array
   for (let i = 0; i < nums2.length; i++) {
+    //  and compare nums2 values in it to nums1 array values
     if (nums1.includes(nums2[i])) {
+      // accumulate / add this value to the count of common numbers found only in nums2 array
       count2++;
     }
   }
-
+  // return both counts in a array
   return [count1, count2];
 };
 
