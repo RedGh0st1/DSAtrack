@@ -5,7 +5,7 @@
 
 //My algo   [3,4,5,2] should output [12] because 3 * 4= 12 , 3 * 5 =
 
-//he condition i < j in the inner loop seems incorrect. It should be j >= 0 to ensure that you iterate over all elements before i.
+// It should be j >= 0 to ensure that you iterate over all elements before i.
 
 // The expression Math.max(nums[i] - 1) * Math.max(nums[j] - 1) should be wrapped in parentheses to correctly apply Math.max to the subtraction results.
 
