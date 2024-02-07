@@ -5,6 +5,7 @@
 //  * @param {number[]} nums2
 //  * @return {number[]}
 //  */
+
 var intersection = function (nums1, nums2) {
   let intersectArr = new Set(nums1);
   let newArr = [];
@@ -18,7 +19,6 @@ var intersection = function (nums1, nums2) {
   return newArr;
 };
 
-//
 // Example 1:
 
 // Input: nums1 = [1,2,2,1], nums2 = [2,2]
