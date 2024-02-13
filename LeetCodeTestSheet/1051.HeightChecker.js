@@ -2,6 +2,12 @@
 // You are given an integer array heights representing the current order that the students are standing in. Each heights[i] is the height of the ith student in line (0-indexed).
 // Return the number of indices where heights[i] != expected[i].
 
+// heights:  [5, 1, 2, 3, 4]
+// expected: [1, 2, 3, 4, 5]
+
+// Comparisons:
+// (5, 1) (1, 2) (2, 3) (3, 4) (4, 5)
+
 var heightChecker = function (heights) {
   // make copy heights array
   const copyOfHeights = [...heights];
