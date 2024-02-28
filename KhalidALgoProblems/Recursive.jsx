@@ -10,8 +10,8 @@ console.log(isCountdownFrom10to1());
 
 // version 2
 const countDown = (num) => {
-  if (number === 0) console.log(number);
-  else console.log(number - 1);
+  if (num === 0) console.log(num);
+  else console.log(num - 1);
 };
 
 // version 3
