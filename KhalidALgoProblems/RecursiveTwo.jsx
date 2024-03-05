@@ -26,10 +26,10 @@ function sunRecursion(arr, idx = 0) {
 // so we need to get rid of the arrays and have one array
 // either a number or array
 
-const flattenArrRecursively = (matrix) => {
-  if (Array.isArray(matrix[0])) return matrix;
-  else return matrix[0].concat(flattenArrRecursively(matrix.slice(1)));
-};
+// const flattenArrRecursively = (matrix) => {
+//   if (Array.isArray(matrix[0])) return matrix;
+//   else return matrix[0].concat(flattenArrRecursively(matrix.slice(1)));
+// };
 
 console.log([1, [2, [3, 4]]]);
 //output = [1,2,3,4]
