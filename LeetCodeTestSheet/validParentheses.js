@@ -23,33 +23,44 @@
 // let s = "()"
 // let s = "()[]{}"
 // let s = "(]"
-let s = "()"
+let s = "()";
 // let s = "{[]}"
 // let s = "([}}])"
 var isValid = function (s) {
   // create an empty array to store opening brackets and their positions in string
-  let stack = []
+  let stack = [];
   for (let i = 0; i < s.length; i++) {
-    let open = s[i]
+    let open = s[i];
     if (open === "(" || open === "{" || open === "[") {
-      stack.push(open)
+      stack.push(open);
     } else {
       if (stack.length === 0) {
-        return false
+        return false;
       } // if there are no opening brackets, return false
 
       // create an empty array to store closing brackets and their positions in string
-      let head = stack.pop()
+      let head = stack.pop();
       if (
         (open === ")" && head !== "(") ||
         (open === "{" && head !== "{") ||
         (open === "]" && head !== "[")
       ) {
-        return false
+        return false;
       }
     }
   }
-  return stack.length === 0
-}
-console.log(isValid(s))
+  return stack.length === 0;
+};
+console.log(isValid(s));
 // output: true
+
+console.log(isValid(")") === false);
+console.log(isParenthesisBalanced("))((") === false);
+console.log(isParenthesisBalanced("(2+3)") === true);
+console.log(isParenthesisBalanced(")2+3(") === false);
+console.log(isParenthesisBalanced("(ud*%()8))") === false);
+console.log(isParenthesisBalanced("]") === false);
+console.log(isParenthesisBalanced("[]") === true);
+console.log(isParenthesisBalanced("[()]") === true);
+console.log(isParenthesisBalanced("(]") === false);
+console.log(isParenthesisBalanced("[(])") === false);
