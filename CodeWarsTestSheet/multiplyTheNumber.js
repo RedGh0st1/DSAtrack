@@ -3,8 +3,13 @@
 // so, for example:
 
 function multiply(number) {
+  // Convert the absolute value of the input number to a string
   let numberStr = Math.abs(number).toString();
+
+  // Get the length of the string (number of digits)
   let length = numberStr.length;
+
+  // Multiply the original number by 5 raised to the power of its length
   return number * Math.pow(5, length);
 }
 
