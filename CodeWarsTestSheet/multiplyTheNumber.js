@@ -1,6 +1,5 @@
 //Jack really likes his number five:
 // the trick here is that you have to multiply each number by 5 raised to the number of digits of each numbers,
-// so, for example:
 
 function multiply(number) {
   // Convert the absolute value of the input number to a string
