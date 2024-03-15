@@ -10,14 +10,18 @@
 // If an empty value ( null, None, Nothing etc. ) is given instead of an array, or the given array is an empty list or a list with only 1 element, return 0.
 
 function sumArray(array) {
-  // Check if array is an array
-  let count = 0;
- for(){
-   
-
- }
-
- return count
+  //  Check if array is an array
+  if (!Array.isArray(array) || array.length <= 1) return 0;
+  // add all  elements of the array together and return the result
+  let count = array.reduce((acc, curr) => acc + curr, 0);
+  // find the smallest number in the array
+  let min = Math.min(...array);
+  // find the largest number in the array
+  let max = Math.max(...array);
+  // get the subtract the smallest and largest number from the count total
+  let total = count - max - min;
+  // return the total
+  return total;
 }
 
 console.log(sumArray(null) === 0);
