@@ -21,7 +21,6 @@ var reverseString = function (s) {
     left++;
     right--;
   }
-  3;
 };
 
 // Example 1:
