@@ -23,8 +23,8 @@
 // 10 * (10) = 100
 // 10 * (100) = 1000
 
-x = 4
-functions = [(x) => x + 1, (x) => x * x, (x) => 2 * x]
+x = 4;
+functions = [(x) => x + 1, (x) => x * x, (x) => 2 * x];
 // expected output = 65
 
 // x = 1
@@ -33,20 +33,17 @@ functions = [(x) => x + 1, (x) => x * x, (x) => 2 * x]
 
 var compose = function (functions) {
   // Start by returning a function that takes in a number and returns a number.
-  // Call each of the functions in the correct order. 
+  // Call each of the functions in the correct order.
   // Each time passing the output of the previous function into the next function.
   return function (x) {
-     let result 
-     for (let i = 0; i < functions.length; i++) {
-      const result= functions[i](x);
-      
-     }
-     return result
-  }
-}
+    let result;
+    for (let i = 0; i < functions.length; i++) {
+      const result = functions[i](x);
+    }
+    return result;
+  };
+};
 // **
 //  * const fn = compose([x => x + 1, x => 2 * x])
 //  * fn(4) // 9
 //  */
-
-/
