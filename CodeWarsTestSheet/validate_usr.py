@@ -4,11 +4,12 @@
 # numbers,
 # underscore
 # Length should be between 4 and 16 characters (both included).
-
+import re
 
 def validate_usr(username):
-    #your code here
-
+    res = r'^[a-z0-9_]{4,16}$'
+    return bool(re.match(res, username));
+ 
         print(validate_usr('asddsa') == True)
         print(validate_usr('a') == False)
         print(validate_usr('Hass') == False)
