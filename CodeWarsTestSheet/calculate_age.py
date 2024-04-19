@@ -30,3 +30,30 @@ print(calculate_age(2010, 1990) == "You will be born in 20 years.")
 print(calculate_age(2010, 1500) == "You will be born in 510 years.")
 print(calculate_age(2011, 2012) == "You are 1 year old.")
 print(calculate_age(2000, 1999) == "You will be born in 1 year.")
+
+
+# another version
+# def calculate_age(year_of_birth, current_year):
+#     age = current_year - year_of_birth
+#     if age == 0:
+#        return "You were born this very year!"
+#     elif age > 0:
+#        return "You are {} year{} old.".format(age, 's' if age > 1 else '')
+#     else:
+#        return "You will be born in {} year{}.".format(abs(age), 's' if abs(age) > 1 else '')
+
+# another version
+# def calculate_age(year_of_birth, current_year):
+#     """There is no need to complicate matters"""
+#     delta = current_year - year_of_birth
+#     if delta < -1:
+#         return f"You will be born in {abs(delta)} years."
+#     elif delta == -1:
+#         return f"You will be born in 1 year."
+#     elif delta == 0:
+#         return "You were born this very year!"
+#     elif delta == 1:
+#         return "You are 1 year old."
+#     elif delta > 1:
+#         return f"You are {delta} years old."
+#     return None
