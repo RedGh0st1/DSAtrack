@@ -4,10 +4,14 @@
 
 # Note: use the π value provided in your language (Math::PI, M_PI, math.pi, etc)
 
-
+import math
 def square_area(A):
-    # your code here
-
+   # circumference of area
+   c = 4 * A
+   # radius calculation = c / (2 * n)
+   radius = c / (2 * math.pi)
+   # the area of a sqaure: radius * radius 
+   return round(radius * radius, 2)
 
 
 print(square_area(2), 1.62)
