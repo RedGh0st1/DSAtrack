@@ -23,7 +23,7 @@ Computer.prototype.print = function.print(){
     return "ha ha i printed this!!"
 }
 }
-
+s
 // class and constructor functions are very similar
 class Computer{
     constructor(width,height,name){
