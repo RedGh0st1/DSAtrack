@@ -19,11 +19,11 @@ function Computer(screenWidth, screenHeight, name) {
 //   };
 
 //The prototype property of a constructor function in JavaScript is used to add methods or properties that will be shared by all instances created using that constructor function. 
-Computer.prototype.print = function.print(){
+Computer.prototype.print = function print(){
     return "ha ha i printed this!!"
 }
 }
-s
+
 // class and constructor functions are very similar
 class Computer{
     constructor(width,height,name){
