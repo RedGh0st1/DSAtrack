@@ -5,9 +5,12 @@ class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
         
     #  Count the frequency of each number
+      #  created a variable of with empty object   
         freq_dict = {}
-        
+
+        # iterate throught nums array  
         for num in nums:
+        #    
            freq_dict[num] = freq_dict.get(num, 0) + 1
        
 
