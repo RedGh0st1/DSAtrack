@@ -24,6 +24,7 @@
 ## Math
 |  |
 | ------- |
+| [0009-palindrome-number](https://github.com/RedGh0st1/DSAtrack/tree/master/0009-palindrome-number) |
 | [0415-add-strings](https://github.com/RedGh0st1/DSAtrack/tree/master/0415-add-strings) |
 ## Simulation
 |  |
