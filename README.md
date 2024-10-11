@@ -5,6 +5,7 @@
 ## String
 |  |
 | ------- |
+| [0065-valid-number](https://github.com/RedGh0st1/DSAtrack/tree/master/0065-valid-number) |
 | [0415-add-strings](https://github.com/RedGh0st1/DSAtrack/tree/master/0415-add-strings) |
 | [0742-to-lower-case](https://github.com/RedGh0st1/DSAtrack/tree/master/0742-to-lower-case) |
 ## Array
