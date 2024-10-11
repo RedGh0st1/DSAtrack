@@ -11,6 +11,7 @@
 ## Array
 |  |
 | ------- |
+| [0066-plus-one](https://github.com/RedGh0st1/DSAtrack/tree/master/0066-plus-one) |
 | [0074-search-a-2d-matrix](https://github.com/RedGh0st1/DSAtrack/tree/master/0074-search-a-2d-matrix) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/RedGh0st1/DSAtrack/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0485-max-consecutive-ones](https://github.com/RedGh0st1/DSAtrack/tree/master/0485-max-consecutive-ones) |
@@ -29,6 +30,7 @@
 |  |
 | ------- |
 | [0009-palindrome-number](https://github.com/RedGh0st1/DSAtrack/tree/master/0009-palindrome-number) |
+| [0066-plus-one](https://github.com/RedGh0st1/DSAtrack/tree/master/0066-plus-one) |
 | [0415-add-strings](https://github.com/RedGh0st1/DSAtrack/tree/master/0415-add-strings) |
 ## Simulation
 |  |
